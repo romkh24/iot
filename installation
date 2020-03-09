@@ -1,0 +1,7 @@
+install driver.
+
+https://www.silabs.com/products/development-tools/software/usb-to-uart-bridge-vcp-drivers
+
+install board.
+
+http://arduino.esp8266.com/stable/package_esp8266com_index.json
