@@ -1,0 +1,17 @@
+#include <ESP8266WiFi.h>
+#include <SoftwareSerial.h>
+
+SoftwareSerial NodeMCU(D2, D3); // RX | TX
+void setup() {
+  pinMode(D2, INPUT);
+  pinMode(D3, OUTPUT);
+  Serial.begin(9600); // 
+  NodeMCU.begin(9600); //
+}
+
+void loop() {
+  NodeMCU.println(1); //
+  delay(500);
+  NodeMCU.println(0); 
+  delay(500);
+}
